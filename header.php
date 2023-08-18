@@ -178,7 +178,7 @@ if (isset($installed) && $installed) {
     <header class="navbar is-primary">
       <div class="navbar-brand">
         <a class="navbar-item" href="<?php echo constant("SITE_PROTOCOL"); ?>://<?php echo constant("SITE_BASEURI"); ?>">
-          <img src="assets/Icon-White.svg">
+          <img src="assets/Icon White.svg">
         </a>
 
         <a class="navbar-burger">
