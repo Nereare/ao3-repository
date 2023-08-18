@@ -59,7 +59,7 @@ CREATE TABLE IF NOT EXISTS `users_throttling` (
 );
 
 CREATE TABLE IF NOT EXISTS `preferences` (
-  `id` INT UNSIGNED NOT NULL,
+  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `name_title` VARCHAR(16),
   `name_first` VARCHAR(64),
   `name_last` VARCHAR(128),
