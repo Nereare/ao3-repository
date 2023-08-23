@@ -18,7 +18,8 @@ try {
 // Load PHP Auth
 $auth = new \Delight\Auth\Auth($db);
 if ($auth->isLoggedIn()) {
-  //
+  // Load works object
+  $works = new \Nereare\AO3\Works($db);
 }
 
 // Load Monolog

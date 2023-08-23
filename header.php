@@ -69,6 +69,7 @@ if (isset($installed) && $installed) {
   <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
   <script type="text/javascript" src="node_modules/@creativebulma/bulma-tagsinput/dist/js/bulma-tagsinput.min.js" charset="utf-8"></script>
   <script type="text/javascript" src="js/common.js" charset="utf-8"></script>
+  <script type="text/javascript" src="js/new_work.js" charset="utf-8"></script>
 </head>
 
 <body>
@@ -171,6 +172,8 @@ if (isset($installed) && $installed) {
   <?php
     exit(0);
   } else { // If the user IS logged in
+    // Initialize Works class
+    $works = new \Nereare\AO3\Works($db);
   ?>
     <!------------------------------------->
     <!--              MENU               -->
